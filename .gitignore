@@ -1,0 +1,11 @@
+# Ignore dependency folders in both apps
+node_modules/
+**/node_modules/
+
+# Ignore environment variables / secrets
+.env
+**/.env
+
+# Ignore production builds
+dist/
+build/
